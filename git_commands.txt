@@ -1,0 +1,26 @@
+git is VCS
+
+-Version Controlling System
+
+-Cloud (google drive)
+Githup
+
+Commands of Git
+
+1. git init
+one time command
+ git config --global user.name "Hassan"
+ git config --gloval user.email "mhassandata@gmail.com"
+how to check user name 
+git config user.name
+git config user.email
+
+git status
+git add filename.txt         (to upload on git stage)
+git rm --cached filename.ext  (to remove from stage)
+
+git add -A to upload all files
+
+git remote add origin <path>
+
+
