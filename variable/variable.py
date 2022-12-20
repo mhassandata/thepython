@@ -44,3 +44,25 @@ my_favorite_car = "Delorean"
 the_3_musketeers = ["Athos", "Porthos", "Aramis"]
 
 print(the_3_musketeers)
+
+
+
+"""Python has several built-in data types for storing different kinds of information in variables. Following are some commonly used data types:
+    1. Integer
+    2. Float
+    3. Boolean
+    4. None
+    5. String
+    6. List
+    7. Tuple
+    8. Dictionary
+Integer, float, boolean, None, and string are primitive data types because they represent a single value. Other data types like list, tuple, and dictionary are often called data structures or containers because they hold multiple pieces of data together.
+"""
+# 1. Integer
+"""Integers represent positive or negative number """
+my_favourite_num = 11
+current_year = 2022
+print(type(current_year))
+
+num = -33
+print(num)
