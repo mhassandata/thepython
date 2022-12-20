@@ -66,3 +66,29 @@ print(type(current_year))
 
 num = -33
 print(num)
+
+#2. Float
+
+"""Float
+Floats (or floating-point numbers) are numbers with a decimal point. 
+There are no limits on the value or the number of digits before or after the decimal point. 
+Floating-point numbers have the type float."""
+
+a_number = 3.0
+print(type(a_number))
+
+"""While performing arithmetic operations, integers are automatically converted to floats if any of the operands is a float. 
+Also, the division operator / always returns a float, even if both operands are integers. 
+Use the // operator if you want the result of the division to be an int."""
+
+print(45*3.0)
+type(45 * 3.0)
+
+#3. Boolean
+"""Boolean
+Booleans represent one of 2 values: True and False. Booleans have the type bool."""
+
+is_this_sunday = True
+is_this_friday = False
+print(is_this_sunday)
+print(is_this_friday)
