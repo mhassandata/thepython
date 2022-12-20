@@ -92,3 +92,50 @@ is_this_sunday = True
 is_this_friday = False
 print(is_this_sunday)
 print(is_this_friday)
+
+
+"""Any value in Python can be converted to a Boolean using the bool function.
+
+Only the following values evaluate to False (they are often called falsy values):
+
+    1. The value False itself
+    2. The integer 0
+    3. The float 0.0
+    4. The empty value None
+    5. The empty text ""
+    6. The empty list []
+    7. The empty tuple ()
+    8. The empty dictionary {}
+    9. The empty set set()
+    10. The empty range range(0)
+Everything else evaluates to True (a value that evaluates to True is often called a truthy value)."""
+bool(True), bool(1), bool(2.0), bool("hello"), bool([1,2]), bool((2,3)), bool(range(10))
+print(bool(True), bool(1), bool(2.0), bool("hello"), bool([1,2]), bool((2,3)), bool(range(10)))
+
+
+# 4. None
+"""The None type includes a single value None, used to indicate the absence of a value. None has the type NoneType. 
+It is often used to declare a variable whose value may be assigned later."""
+
+nothing = None
+print(nothing)
+
+
+# 5. String
+"""A string is used to represent text (a string of characters) in Python. 
+Strings must be surrounded using quotations (either the single quote ' or the double quote "). Strings have the type string."""
+
+today = "Sunday"
+my_favourite_movie = "the north"
+
+#Strings created using single or double quotes must begin and end on the same line. To create multiline strings, use three single quotes ''' or three double quotes """ to begin and end the string. 
+#Line breaks are represented using the newline character \n.
+
+a_music_pun = """
+Two windmills are standing in a field and one asks the other, 
+"What kind of music do you like?"  
+
+The other says, 
+"I'm a big metal fan."
+"""
+print(a_music_pun)
