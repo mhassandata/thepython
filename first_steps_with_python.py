@@ -1,112 +1,20 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# <a href="https://colab.research.google.com/github/Masadn/python-course/blob/main/first_steps_with_python.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-
-# ## Adding text styles using Markdown
-# **Adding explanations** using text cells (like this one) is a great way to make your notebook informative for other readers. It is also useful if you need to refer back to it in the future. You can double click on a text cell within Jupyter to edit it. In the edit mode, you'll notice that the text looks slightly different (for instance, the heading has a `##` prefix. This text is written using Markdown, a simple way to add styles to your text. Execute this cell to see the output without the special characters. You can switch back and forth between the source and the output to apply a specific style.
-# 
-# For instance, you can use one or more `#` characters at the start of a line to create headers of different sizes:
-# 
-# # Header 1
-# 
-# ## Header 2
-# 
-# ### Header 3
-# 
-# #### Header 4
-# 
-# ##### Header 5
-# 
-# ###### Header 6
-# 
-# To create a bulleted or numbered list, simply start a line with `*` or `1.`.
-# 
-# A bulleted list:
-# 
-# * Item 1
-# * Item 2
-# * Item 3
-# * item 4
-# 
-# A numbered list:
-# 
-# 1. Apple
-# 2. Banana
-# 3. Pineapple
-# 
-# You can make some text bold using `**`, e.g., **some bold text**, or make it italic using `*`, e.g., *some italic text.* 
-
-# #Data Analysis with Python
-# 
-# ## First Steps with Python and Jupyter 
-# 
-# ![](https://i.imgur.com/gvSnw4A.png)
-# 
-# 
-
-# This tutorial covers the following topics:
-# 
-# * Performing arithmetic operations using Python
-# * Solving multi-step problems using variables
-# * Evaluating conditions using Python
-# * Combining conditions with logical operators
-# 
-
-# ## Performing Arithmetic Operations using Python
-# 
-# Let's begin by using Python as a calculator. You can write and execute Python using a code cell within google Colab. 
-# 
-# 
-# 
-# Run the code cells below to perform calculations and view their result. Try changing the numbers and run the modified cells again to see updated results. Can you guess what the `//`, `%`, and `**` operators are used for?
-
-# In[ ]:
 
 
 print(2 + 3 + 9+5+6)
 
-
-# In[ ]:
-
-
-99 - 73
-
-
-# In[ ]:
-
+99 - 77
 
 23.54 * -1432
-
-
-# In[ ]:
 
 
 100 / 7
 
 
-# In[ ]:
-
-
 100 // 7
-
-
-# In[ ]:
-
 
 100 % 7
 
-
-# 5 ** 3
-
-# In[ ]:
-
-
 2/6
-
-
-# In[ ]:
-
 
 ((2 + 5) * (17 - 3))
 
