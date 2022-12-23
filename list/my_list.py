@@ -48,3 +48,20 @@ print(6 in my_list)
 #As far the list has positive indexing as well as negative indexing
 print(my_list[-1])
 #It will display last element of the list
+
+#List slicing 
+my_new_list = [1,2,3,4,5,6,7,8,9]
+#imy_new_list has 9 elements but last element has index of 10
+
+print(my_new_list[1:4])
+#output : [2, 3, 4] it has simple rule as first element 1 has starter which include and last 4 which are excluded
+
+
+#element 4th to the end
+print(my_new_list[4 :])
+
+#element from start to end
+print(my_new_list[:])
+
+print(len(my_new_list)) #9
+
