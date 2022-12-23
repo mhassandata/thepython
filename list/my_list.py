@@ -14,3 +14,13 @@ list_string = ["python", "java", "c", "c#"]
 print(list_string)
 print(type(list_string))
 
+#list with mixed datatypes
+mix_list = [1, 1.5, "python"]
+print(mix_list)
+
+#Nested list 
+nested_list = [1, 2, [3,4,5]]
+print(nested_list)
+
+mixed_nested_list = [1, 2, ['mango', "banana"], 5.5]
+print(mixed_nested_list)
