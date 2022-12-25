@@ -37,3 +37,9 @@ for vals in student.values():
 for key , value in student.items():
     print(key, value)
 #.item will print both key and item.
+
+
+#let have see some built in function 
+for key, value in student.items():
+    print(key.upper())
+    print(value.capitalize())
