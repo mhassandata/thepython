@@ -14,3 +14,26 @@ student  = {
 }
 print(student)
 #here f_name is key and "Hassan" is a value which has key value pair.
+
+
+# if we iterate directly on dictionary it will return keys only
+for i in student:
+    print(i)
+#It will return all keys in dictionary
+
+# if we iterate on dictionary.keys() it will return keys.
+for i in student.keys():
+    print(i)
+
+#we will get values directly
+for j in student.values():
+    print(j)
+
+# we can get values directly
+for vals in student.values():
+    print(vals)
+#we can also print both values and keys both
+
+for key , value in student.items():
+    print(key, value)
+#.item will print both key and item.
