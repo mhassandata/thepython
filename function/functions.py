@@ -43,6 +43,23 @@ def bio_data(f_name, l_name, gender, nationality, email, contact):
 bio_data("Mohd", "Hassan", "Male", "Pakistani", "abc@gmail.com", "01234557")
 
 
+""""
+Output will be like..
+        <__________________________________>
+            First Name of Student : Mohd,
+            Last name of Student : Hassan,
+            Gender of Student : Male,
+            Nationality of Student : Male,
+            Email of Student : abc@gmail.com,
+            Contact number of Student : 01234557
+        <__________________________________________>
+
+
+"""
+
+
+
+
 #Key word arguments
 
 
