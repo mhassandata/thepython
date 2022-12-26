@@ -19,10 +19,33 @@ greeting()
 """Parameters & Arguments
    - Parameters are expexted values given from user
    - Arguments are values that user supplies to function"""
-def greet_user(user_name):
+
+def greet_user(user_name):  #parameter
     name = user_name.upper()
-    print(f"Welcome{name}")
-greet_user("Hssan")
+    print(f"Welcome {name}")
+greet_user("Hassan")
+
+
+
+#Now we will see the multiple parameters 
+
+def bio_data(f_name, l_name, gender, nationality, email, contact):
+    print(f""" 
+        <__________________________________>
+            First Name of Student : {f_name},
+            Last name of Student : {l_name},
+            Gender of Student : {gender},
+            Nationality of Student : {gender},
+            Email of Student : {email},
+            Contact number of Student : {contact}
+        <__________________________________________>
+            """)
+bio_data("Mohd", "Hassan", "Male", "Pakistani", "abc@gmail.com", "01234557")
+
+
+#Key word arguments
+
+
 
 #Output: Welcome
 #let have define a funciton which add two number
