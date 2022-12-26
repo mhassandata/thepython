@@ -35,7 +35,7 @@ def bio_data(f_name, l_name, gender, nationality, email, contact):
             First Name of Student : {f_name},
             Last name of Student : {l_name},
             Gender of Student : {gender},
-            Nationality of Student : {gender},
+            Nationality of Student : {nationality},
             Email of Student : {email},
             Contact number of Student : {contact}
         <__________________________________________>
