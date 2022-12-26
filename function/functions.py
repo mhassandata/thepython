@@ -49,7 +49,7 @@ Output will be like..
             First Name of Student : Mohd,
             Last name of Student : Hassan,
             Gender of Student : Male,
-            Nationality of Student : Male,
+            Nationality of Student : Pakistani,
             Email of Student : abc@gmail.com,
             Contact number of Student : 01234557
         <__________________________________________>
