@@ -118,3 +118,5 @@ print(my_new_list[1:4])
 #Example
 print(my_new_list[0:8:2])
 # In this case the output [1, 3, 5, 7]
+
+
