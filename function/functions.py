@@ -53,22 +53,35 @@ Output will be like..
             Email of Student : abc@gmail.com,
             Contact number of Student : 01234557
         <__________________________________________>
-
-
 """
 
-
-
-
 #Key word arguments
+def full_name(first_name, last_name, age):
+    print(f"{first_name} {last_name}")
+    print(f"Age is  : {age}")
 
+full_name(age=27, last_name="Hassan", first_name="Mohd")
 
-
-#Output: Welcome
 #let have define a funciton which add two number
-# def additon(num_1, num_2):
-#     result = num_1 + num_2
-#     return result
+def additon(num_1, num_2):
+    result = num_1 + num_2
+    return result
 
-# first_add = additon(12, 55)
-# first_add
+first_add = additon(12, 55)
+print("Addition of num_1 and num_2 is = ", first_add)
+
+
+#Let have calculate the area of triagles
+def area_of_triagle(length, width):
+    area = 0.5 * (length * width)
+    return area
+
+area_of_triagle_1 = area_of_triagle(4, 9)
+print("Area of first triangle is = ", area_of_triagle_1)
+
+#Same as above
+def areaOfTriagle(l, w):
+    area = 0.5 * l * w
+    print(f"Area of triangle is = {area} sq.cm")
+areaOfTriagle(4, 9)
+# Output: Area of triangle is = 18.0 sq.cm
