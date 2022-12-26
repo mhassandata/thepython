@@ -43,3 +43,5 @@ for key , value in student.items():
 for key, value in student.items():
     print(key.upper())
     print(value.capitalize())
+
+

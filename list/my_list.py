@@ -65,3 +65,6 @@ print(my_new_list[:])
 
 print(len(my_new_list)) #9
 
+#Adding new member to existing list
+# 1. Adding member to the last of the existing list we will use append() method
+#for example we have list my_new_list which has 9 element so we are going to add 10th elements.
