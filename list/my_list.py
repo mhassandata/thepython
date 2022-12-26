@@ -67,4 +67,17 @@ print(len(my_new_list)) #9
 
 #Adding new member to existing list
 # 1. Adding member to the last of the existing list we will use append() method
-#for example we have list my_new_list which has 9 element so we are going to add 10th elements.
+# for example we have list my_new_list which has 9 element so we are going to add 10th elements.
+# for example we have to add element in any postition we have method insert()
+
+my_new_list.append(10)
+print(my_new_list)
+#The out will be [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+my_new_list.insert(11, 12)
+print(my_new_list)
+#output [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+#But we will position the element in any index 
+my_new_list.insert(2, 100)
+print(my_new_list)
+#output: [1, 2, 100, 3, 4, 5, 6, 7, 8, 9, 10, 12]
