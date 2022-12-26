@@ -81,3 +81,40 @@ print(my_new_list)
 my_new_list.insert(2, 100)
 print(my_new_list)
 #output: [1, 2, 100, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+
+
+#Removing members from existing list
+# del commmand
+# remove function
+# pop function
+del my_new_list[-1]
+print(my_new_list)
+#output: [1, 2, 100, 3, 4, 5, 6, 7, 8, 9, 10]
+
+my_new_list.remove(100)
+print(my_new_list)
+#Output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+"""Pop() removes a members permanently but it returns the removed
+so that you can utilize it later if u need it.
+By defauly pop() removes value from end of the list But if you supply index like:
+pop(3) it will remove the same index value"""
+ 
+my_new_list.pop()
+print(my_new_list)
+#output: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+
+
+#Slicing a List
+# Slice basically copies and return the part of list 
+my_new_list.sort(reverse=False)
+print(my_new_list)
+
+print(my_new_list[1:4])
+#Output: [2, 3, 4]
+#While sclicing here the one is included starter point and end is not included 4
+#But slice has third point called step which tell the python to slice the list step wise 
+#Example
+print(my_new_list[0:8:2])
+# In this case the output [1, 3, 5, 7]
