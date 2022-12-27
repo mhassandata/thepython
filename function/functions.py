@@ -3,6 +3,16 @@
     Advantage : code reuseablity
             code simplicity/readablity
             bug resolving  """ 
+""""Function Continue..
+Define
+Call
+Parameters
+Arguments
+Return
+Keyword Arguments
+
+Default Parameters"""
+
 #defining a function with the key word def 
 def function_name():
     print("body of function")
@@ -85,3 +95,25 @@ def areaOfTriagle(l, w):
     print(f"Area of triangle is = {area} sq.cm")
 areaOfTriagle(4, 9)
 # Output: Area of triangle is = 18.0 sq.cm
+
+
+#Arbitrary number of arguments
+def user_details(name, email, *others_details):
+    print(name)
+    print(email)
+    for val in others_details:
+        print(val)
+user_details("Hassan", "abc@gmail.com", "mhassan", "ceo")
+
+"""output: Hassan
+abc@gmail.com
+mhassan
+ceo """
+
+#If we are passing keyword-arguments 
+def user_details1(name, email, **others_details1):
+    print(name)
+    print(email)
+    for k, val in others_details1.items():
+        print(k , val)
+user_details1("Hassan", "abc@yahoo.com", city="gilgit", country="Pakistan")
