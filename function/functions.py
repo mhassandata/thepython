@@ -117,3 +117,10 @@ def user_details1(name, email, **others_details1):
     for k, val in others_details1.items():
         print(k , val)
 user_details1("Hassan", "abc@yahoo.com", city="gilgit", country="Pakistan")
+
+""""mhassan
+ceo
+Hassan
+abc@yahoo.com
+city gilgit
+country Pakistan"""
