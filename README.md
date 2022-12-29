@@ -1,6 +1,9 @@
 # thepython
+
 ***Linear Programming***
+
 ***Functional Programming***
+
 ***Modular Programming***
 
 ## Thepython Repo
