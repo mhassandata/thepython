@@ -3,6 +3,7 @@
     Advantage : code reuseablity
             code simplicity/readablity
             bug resolving  """ 
+    #Functions can be used to quickly find information and perform calculations using specific values.
 """"Function Continue..
 Define
 Call
