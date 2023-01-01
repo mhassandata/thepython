@@ -131,3 +131,11 @@ with open("myfile.txt") as my_file:
     length = len(text)
 print("The file is {} characters long.".format(length))
 #output is : The file is 136 characters long.
+
+#Now we will see the specific character repetition in the file.
+n = 0
+for word in text.split():
+  if word.lower() in ['a', 'the']:
+    n += 1
+print('The file has "a" {} times'.format(n))
+#output : The file has "a" 9 times
