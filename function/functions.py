@@ -125,3 +125,9 @@ Hassan
 abc@yahoo.com
 city gilgit
 country Pakistan"""
+#write a script to count file characters
+with open("myfile.txt") as my_file:
+    text = my_file.read()
+    length = len(text)
+print("The file is {} characters long.".format(length))
+#output is : The file is 136 characters long.
