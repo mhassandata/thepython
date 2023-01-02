@@ -111,3 +111,59 @@ else:
 #output:    15 is divisible by 3
 #           15 is divisible by 5
 
+"""
+#Task Write a program to accept the cost price of a bike and display the road tax to be paid according to the following criteria :
+
+    Cost price (in Rs)                                       Tax
+    > 100000                                                  15 %
+    > 50000 and <= 100000                                     10%
+    <= 50000                                                  5%
+
+"""
+#Conditions can also be combined using the logical operators and, or and not.
+fav_number = 12
+if fav_number % 3 == 0 and fav_number % 5 ==0:
+    print("The {} is divisible by 3 and 5".format(fav_number))
+elif not fav_number % 5 ==0:
+    print("The {} is not divisible by 5".format(fav_number))
+#Output: The 12 is not divisible by 5
+
+
+
+"""
+Nested if with else
+In nested if's every clause must be true to reach target answer
+If any of the if clause fails it will move to respective else block.
+"""
+#Task take input from user about the brand name and output the brand
+shopping_cart = None
+brand_name = input("Enter brand!. ")
+if brand_name == "polo":
+    shirt_color = input("Shirt color!. ")
+    if shirt_color == "red":
+        shirt_size = input("Shirt size!. ")
+        if shirt_size == "M":
+            shirt_price = int(input("Enter price!. "))
+            if shirt_price < 1500:
+                shopping_cart = f'{brand_name},{shirt_color},{shirt_size},{shirt_price}'
+            else:
+                shopping_cart = "Oho .......... Out of budget"
+        else:
+            shopping_cart = "Medium size is unavailable."
+    else:
+        shopping_cart = "Red color is not available."
+else:
+    shopping_cart = "Polo brand is not available now a days."
+
+print(f"""
+         ABC Shopping Centre
+         ___________________
+         
+         Item Brand  : {brand_name}
+         Item Color  : {shirt_color}
+         Item Size   : {shirt_size}
+         Item price  : {shirt_price}
+         
+         Thank your for shopping with us
+         ________________________________
+""")
