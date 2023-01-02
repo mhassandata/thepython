@@ -167,3 +167,54 @@ print(f"""
          Thank your for shopping with us
          ________________________________
 """)
+
+#OUTPUT:
+"""
+ABC Shopping Centre
+         ___________________
+
+         Item Brand  : polo
+         Item Color  : red
+         Item Size   : M
+         Item price  : 1250
+
+         Thank your for shopping with us
+         ________________________________
+"""
+
+#Chect whether a person is eligible for driving licence or not?
+has_cnic = input("Do you have CNIC! ").lower()
+has_passport = input("Do you have passport! ").lower()
+
+if has_cnic == "yes" or has_passport == "yes":
+    print("Yes you have eligibal for driving licience ")
+else:
+    print("You are not eligibal for driving lience")
+
+###################################################################################################3
+""""#Task Write a program to accept the cost price of a bike and display the road tax to be paid according to the following criteria :
+
+    Cost price (in Rs)                                       Tax
+    > 100000                                                  15 %
+    > 50000 and <= 100000                                     10%
+    <= 50000                                                  5%
+"""
+
+# def calculate_road_tax(cost_price):
+#     if cost_price > 100000:
+#         tax = cost_price * 0.15
+#     elif cost_price > 50000:
+#         tax = cost_price * 0.1
+#     else:
+#         tax = cost_price * 0.05
+#     return tax
+cost_price = 190000
+if cost_price > 100000:
+    tax = cost_price * 0.15
+elif cost_price > 50000:
+    tax = cost_price * 0.1
+else :
+    tax = cost_price * 0.05
+cost_price = float(input("Enter the cost price of the bike: "))
+print("Road tax to be paid: Rs.", tax)
+
