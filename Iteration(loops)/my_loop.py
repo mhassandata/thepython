@@ -40,6 +40,43 @@ items = ["Bag","Ball","Cap","Copy","Knife","Keyboard","Mouse","Monitor","Headfon
 for item in items:
     if item.endswith("e"):
         print(item)
+    #output: Knife Mouse Headfone
 for item1 in items:
     if item1.startswith("C"):
         print(item1)
+    #output: Cap Copy
+#let see more complex
+
+for item in items:
+    if item[-1] == "e" and (len(item) > 5):
+        print(item)
+#Output: Headfone
+
+#Task
+#You have to make 50 list of guest and invite them to the party
+# gest_list = []
+# for gust in range(10):
+#     friends = input("Enter Friends name. ")
+#     gest_list.append(friends)
+# print(gest_list)
+
+###### Break and Continue ##########################
+for i in range(10):
+    if i == 5:
+        break
+    print(i)
+#output: 0 1 2 3 4
+#Same example with "Continue"
+for j in range(10):
+    if j == 5:
+        continue
+    print(j)
+#output: 0 1 2 3 4 6 7 8 9
+
+#task: take 5 integers as input and find the sum of all integers supplied.
+total = 0
+for a in range(10):
+    num =  int(input("Enter a number.. "))
+    total += num
+print(total)
+#it will take 10 digit and print out the sum, now you can add average and percentage or any other calculation.

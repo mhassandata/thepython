@@ -8,6 +8,7 @@
 
 ## Thepython Repo
 In this repo we will learn the python programming language, python programming from scratch to high level which includes from variable to different data types likes tuple list and dictionary and than object oriented programmming.
+- Linear programming is a method to achieve the best outcome (such as maximum profit or lowest cost) in a mathematical model whose requirements are represented by linear relationships. Linear programming is a special case of mathematical programming (also known as mathematical optimization).
 This Repositrory includes
 - Basic Python Programming
 - Object Oriented Programming
