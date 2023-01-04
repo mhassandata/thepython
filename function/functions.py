@@ -139,3 +139,43 @@ for word in text.split():
     n += 1
 print('The file has "a" {} times'.format(n))
 #output : The file has "a" 9 times
+
+
+""""
+Task. Album: Write a function called make_album() that builds a dictionary
+describing a music album The function should take in an artist name and an
+album title, and it should return a dictionary containing these two pieces of
+information Use the function to make three dictionaries representing different
+albums Print each return value to show that the dictionaries are storing the
+album information correctly
+Add an optional parameter to make_album() that allows you to store the
+number of tracks on an album If the calling line includes a value for the number of tracks, add that value to the album’s dictionary Make at least one new
+function call that includes the number of tracks on an album
+"""
+##one way to write a funciton
+def make_album(artis_name, album_title):
+    album = {}
+    album["artist"] = artis_name
+    album["title"] = album_title
+    return album
+### Calling function with object album1
+album1 = make_album("Arjit Singn", "Pardas")
+print(album1)
+#Output: {'artist': 'Arjit Singn', 'title': 'Pardas'}
+
+album2 = make_album("Salman ALI", "PardasI")
+print(album2)
+#OUTPUT: {'artist': 'Salman ALI', 'title': 'PardasI'}
+
+
+def make_album(artis_name, album_title, no_of_track=None):
+    album = {}
+    album["artist"] = artis_name
+    album["title"] = album_title
+    if no_of_track:
+        album['track'] = no_of_track
+    return album
+#Calling function
+album3 = make_album("AR REHAMAN", "Jao ho", 50)
+print(album3)
+#Output: {'artist': 'AR REHAMAN', 'title': 'Jao ho', 'track': 50}
