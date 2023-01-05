@@ -218,5 +218,10 @@ else :
 cost_price = float(input("Enter the cost price of the bike: "))
 print("Road tax to be paid: Rs.", tax)
 
+
+#First separate the string from digit and print it from a list
+mix_list_num_string = [1, "A", 2, "B", 3, "C", 4, "D", 5, "E"]
+strings = [y for y in mix_list_num_string if type(y) == str]
+#Output: ['A', 'B', 'C', 'D', 'E']
 _____________________________________________##############################################___________________________________
 

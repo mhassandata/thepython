@@ -122,3 +122,10 @@ which returns a tuple containing the index and the corresponding element."""
 
 for i , val in enumerate(days):
      print("The value at position {} is {}.".format(i, days[i]))
+
+
+#print all the list name in uppercase
+list_names = ['hassan', 'zahid', 'zakir', 'adnan']
+list_name_uppercase = [name.upper() for name in list_names]
+print(list_name_uppercase)
+#Output: ['HASSAN', 'ZAHID', 'ZAKIR', 'ADNAN']
