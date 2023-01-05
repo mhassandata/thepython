@@ -80,3 +80,40 @@ for a in range(10):
     total += num
 print(total)
 #it will take 10 digit and print out the sum, now you can add average and percentage or any other calculation.
+
+
+#Write program to factorize any digit 
+result = 1
+i = 1
+while i <=100:
+    result = result * i
+    i += 1
+
+print("The factorial of 100 is : {}".format(result)) 
+#Output: The factorial of 100 is : 93326215443944152681699238856266700490715968264381621468592963895217599993229915608941463976156518286253697920827223758251185210916864000000000000000000000000
+
+days = ['Monday','Tuesday','Wednesday','Thursday','Friday', 'Saturday','Sunday']
+for day in days:
+    print(day)
+
+for fruit in ['Apple', 'Orange','Banana']:
+    print("Here is fruit :", fruit)
+#Output:    Here is fruit : Apple
+#           Here is fruit : Orange
+#           Here is fruit : Banana
+
+
+
+#Chect the value in list through iteration
+for day in range(len(days)):
+    print("The value at position {} is {}.".format(day, days[day]))
+#Output: 
+"""
+The value at position 0 is Monday.
+The value at position 1 is Tuesday.
+The value at position 2 is Wednesday.
+The value at position 3 is Thursday.
+The value at position 4 is Friday.
+The value at position 5 is Saturday.
+The value at position 6 is Sunday.
+"""
