@@ -117,3 +117,8 @@ The value at position 4 is Friday.
 The value at position 5 is Saturday.
 The value at position 6 is Sunday.
 """
+"""Another way to achieve the same result is by using the enumerate function with days as an input, 
+which returns a tuple containing the index and the corresponding element."""
+
+for i , val in enumerate(days):
+     print("The value at position {} is {}.".format(i, days[i]))
