@@ -139,3 +139,11 @@ The other says,
 "I'm a big metal fan."
 """
 print(a_music_pun)
+
+
+#lets Creat a string variable and print its lucky number
+my_lucky_number = "Hassan"
+number = len(my_lucky_number) * 5
+print("Hello {} your lucky number is {}".format(my_lucky_number, number))
+
+#Output: Hello Hassan your lucky number is 30
