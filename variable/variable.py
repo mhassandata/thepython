@@ -147,3 +147,9 @@ number = len(my_lucky_number) * 5
 print("Hello {} your lucky number is {}".format(my_lucky_number, number))
 
 #Output: Hello Hassan your lucky number is 30
+
+#String Formating
+price = 240
+with_tax = price * .5
+print("price is {} and tax is {}".format(price, with_tax))
+#price is 240 and tax is 120.0
