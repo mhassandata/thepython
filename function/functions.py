@@ -179,3 +179,26 @@ def make_album(artis_name, album_title, no_of_track=None):
 album3 = make_album("AR REHAMAN", "Jao ho", 50)
 print(album3)
 #Output: {'artist': 'AR REHAMAN', 'title': 'Jao ho', 'track': 50}
+
+#Write a function to convert temperature from celcius to fahernheit
+def to_celsius(x):
+    return (x-32) * 5/9
+#Call the function to check
+print(to_celsius(46))
+
+for x in range(0, 100, 10):
+    print(x, to_celsius(x))
+
+#output:
+"""
+0 -17.77777777777778
+10 -12.222222222222221
+20 -6.666666666666667
+30 -1.1111111111111112
+40 4.444444444444445
+50 10.0
+60 15.555555555555555
+70 21.11111111111111
+80 26.666666666666668
+90 32.22222222222222
+"""

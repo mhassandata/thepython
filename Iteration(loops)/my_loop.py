@@ -129,3 +129,8 @@ list_names = ['hassan', 'zahid', 'zakir', 'adnan']
 list_name_uppercase = [name.upper() for name in list_names]
 print(list_name_uppercase)
 #Output: ['HASSAN', 'ZAHID', 'ZAKIR', 'ADNAN']
+
+#When we will use "for loop" and "while loop"
+#### Use For loops when there's a sequence of elements that you want to iterate.For loops are mostly used when there's a pre-defined sequence or range of numbers to iterate.
+
+#### Use while loop when you want to repeat an action until a condition changes, While loops are mostly used when there’s an unknown number of operations to be performed, and a condition needs to be checked at each iteration.
