@@ -159,9 +159,9 @@ print(f"""
          ABC Shopping Centre
          ___________________
          
-         Item Brand  : {brand_name}
-         Item Color  : {shirt_color}
-         Item Size   : {shirt_size}
+         Item Brand  : {brand_name},
+         Item Color  : {shirt_color},
+         Item Size   : {shirt_size},
          Item price  : {shirt_price}
          
          Thank your for shopping with us
