@@ -223,5 +223,16 @@ print("Road tax to be paid: Rs.", tax)
 mix_list_num_string = [1, "A", 2, "B", 3, "C", 4, "D", 5, "E"]
 strings = [y for y in mix_list_num_string if type(y) == str]
 #Output: ['A', 'B', 'C', 'D', 'E']
-_____________________________________________##############################################___________________________________
+
+# Condition statement example
+album_year = 1980
+
+if(album_year > 1979) and (album_year < 1990):
+    print ("Album year was in between 1980 and 1989")
+    
+print("")
+print("Do Stuff..")
+
+
+
 
