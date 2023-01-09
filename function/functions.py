@@ -222,5 +222,6 @@ print('5 + 2 = {}'.format(add(5, 2)))
 
 subtract = create_math_function('subtract')
 print('5 - 2 = {}'.format(subtract(5, 2)))
+
 #Output:    5 + 2 = 7
 #           5 - 2 = 3
