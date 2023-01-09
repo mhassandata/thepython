@@ -202,3 +202,25 @@ for x in range(0, 100, 10):
 80 26.666666666666668
 90 32.22222222222222
 """
+
+#Nested Functions
+def create_math_function(func_name):
+  if func_name == 'add':
+    def add(a, b):
+      return a + b
+    return add
+  elif func_name == 'subtract':
+    # Define the subtract() function
+    def subtract(a,b):
+      return a - b
+    return subtract
+  else:
+    print("I don't know that one")
+    
+add = create_math_function('add')
+print('5 + 2 = {}'.format(add(5, 2)))
+
+subtract = create_math_function('subtract')
+print('5 - 2 = {}'.format(subtract(5, 2)))
+#Output:    5 + 2 = 7
+#           5 - 2 = 3
