@@ -225,3 +225,15 @@ print('5 - 2 = {}'.format(subtract(5, 2)))
 
 #Output:    5 + 2 = 7
 #           5 - 2 = 3
+
+"""Raise value1 to the power of value2 and vice versa."""
+def raise_both(value_1, value_2):
+    """Raise value1 to the power of value2 and vice versa."""
+    new_value_1 = value_1 * value_1
+    new_value_2 = value_2 * value_2
+    new_tuple_values = (new_value_1, new_value_2)
+    return new_tuple_values
+
+#Calling the functions
+print(raise_both(4, 5))
+#(16, 25)

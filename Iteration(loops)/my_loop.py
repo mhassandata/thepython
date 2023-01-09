@@ -134,3 +134,21 @@ print(list_name_uppercase)
 #### Use For loops when there's a sequence of elements that you want to iterate.For loops are mostly used when there's a pre-defined sequence or range of numbers to iterate.
 
 #### Use while loop when you want to repeat an action until a condition changes, While loops are mostly used when there’s an unknown number of operations to be performed, and a condition needs to be checked at each iteration.
+
+
+#Exercise
+# Create a 5 x 5 matrix using a list of lists: matrix
+matrix = [[col for col in range(5)] for row in range(5)]
+
+# Print the matrix
+for row in matrix:
+    print(row)
+
+""" Output
+[0, 1, 2, 3, 4]
+[0, 1, 2, 3, 4]
+[0, 1, 2, 3, 4]
+[0, 1, 2, 3, 4]
+[0, 1, 2, 3, 4]
+
+"""
