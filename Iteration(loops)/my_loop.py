@@ -170,5 +170,15 @@ for k in range(2, 12, 2):
     print(k)
 
 
-for i , val in enumerate(days):
-    print("The value at position{} is {}".format(i, val))
+for i, val in enumerate(days):
+    print('The value at position {} is {}.'.format(i, val))
+"""
+The value at position 0 is Monday.
+The value at position 1 is Tuesday.
+The value at position 2 is Wednesday.
+The value at position 3 is Thursday.
+The value at position 4 is Friday.
+The value at position 5 is Saturday.
+The value at position 6 is Sunday.
+
+"""
