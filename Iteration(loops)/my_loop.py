@@ -152,3 +152,23 @@ for row in matrix:
 [0, 1, 2, 3, 4]
 
 """
+
+"""
+Iterating using range and enumerate
+The range function is used to create a sequence of numbers that can be iterated over using a for loop. It can be used in 3 ways:
+
+range(n) - Creates a sequence of numbers from 0 to n-1
+range(a, b) - Creates a sequence of numbers from a to b-1
+range(a, b, step) - Creates a sequence of numbers from a to b-1 with increments of step
+
+"""
+for i in range(7):
+    print(i)
+for j in range(2, 12):
+    print(j)
+for k in range(2, 12, 2):
+    print(k)
+
+
+for i , val in enumerate(days):
+    print("The value at position{} is {}".format(i, val))
