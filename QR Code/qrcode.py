@@ -21,7 +21,7 @@
 import qrcode as qr
 
 # Create the QR code image file
-img = qr.make("https://www.youtube.com/@skdesigns268")
+img = qr.make("https://www.youtube.com/[ID OF YOUTUBE CHANNEL]")
 
 # Save the QR code image file
-img.save("SKDESIGNS.png")
+img.save("name of file.png")
