@@ -182,3 +182,9 @@ The value at position 5 is Saturday.
 The value at position 6 is Sunday.
 
 """
+
+# Create a list of strings: fellowship
+fellowship = ["merry", "uno", "undp", "aragorn","legolas","boromir","gimli"]
+# Create dict comprehension: new_fellowship
+new_fellowship = { member:len(member) for memeber in fellowship}
+print(new_fellowship)

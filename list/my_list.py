@@ -120,3 +120,12 @@ print(my_new_list[0:8:2])
 # In this case the output [1, 3, 5, 7]
 
 
+# Advance comprehension
+## Conditionals in comprehension
+
+my_com_list = [num **2 for num in range(10) if num % 2 ==0]
+print(my_com_list)
+#ouput: [0, 4, 16, 36, 64]
+my_com_list_1 = [num ** 2 if num % 2 ==0 else 0 for num in range(10)]
+print(my_com_list_1)
+#output: [0, 0, 4, 0, 16, 0, 36, 0, 64, 0]
