@@ -44,4 +44,9 @@ for key, value in student.items():
     print(key.upper())
     print(value.capitalize())
 
+# Dict comprehensions
+# Use curly brances {} instead of brackets []
 
+pos_neg = {num: -num for num in range(9)}
+print(pos_neg)
+#Output: {0: 0, 1: -1, 2: -2, 3: -3, 4: -4, 5: -5, 6: -6, 7: -7, 8: -8}
