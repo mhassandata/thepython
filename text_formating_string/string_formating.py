@@ -53,3 +53,19 @@ student_card_2 = f"""
     *****************END*****************************************
     """
 print(student_card_2)
+
+"""
+Output:
+     *****************Student Card_2*****************************
+    Name of Student: Hassan
+    Name of Student's Father's name : M Hasil Khan
+    Batch of Enrollment: 37
+    Name of University: PIAIC
+    Age of Student: 27
+    Date of Addmission Student:2022-06-01
+    Class timing: 09:00 to 12:00
+    *****************END*****************************************
+
+
+
+"""
