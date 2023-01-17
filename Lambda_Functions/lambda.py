@@ -16,3 +16,12 @@ print(x(5))
 x = lambda a, b : a * b
 print(x(5, 6))
 
+#Print even number from 0 to 20
+even_20 = [num for num in range(21) if num%2==0]
+print(even_20)
+#Output : [0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+
+#Print all even number greater than 20
+even_g_20 = [num for num in range(40) if num%2==0 if num >= 20]
+print(even_g_20)
+#output: [20, 22, 24, 26, 28, 30, 32, 34, 36, 38]
