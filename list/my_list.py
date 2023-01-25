@@ -129,3 +129,13 @@ print(my_com_list)
 my_com_list_1 = [num ** 2 if num % 2 ==0 else 0 for num in range(10)]
 print(my_com_list_1)
 #output: [0, 0, 4, 0, 16, 0, 36, 0, 64, 0]
+
+
+new_list = [1,2,3,4]
+mul = {i: 3*i for i in new_list}
+print(mul)
+
+
+mix_list = [5, "M", 6, "N", "O", 8]
+integers = [j if type(j) == int else 0 for j in mix_list]
+print(integers)
