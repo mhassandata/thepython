@@ -140,3 +140,8 @@ mix_list = [5, "M", 6, "N", "O", 8]
 integers = [j if type(j) == int else 0 for j in mix_list]
 print(integers)
 #output: [5, 0, 6, 0, 0, 8]
+
+mix = [1, "A", 2, "B", 3, "C"]
+strings = [y for y in mix if type(y) == str]
+print(strings)
+#output: ['A', 'B', 'C']
