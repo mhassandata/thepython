@@ -17,14 +17,14 @@ This Repositrory includes
     In the Basic programming we have convered basic syntax of python programming from variable to data types.
 2. Data types
 
-     [x] Numbers
-     [x] String
-     [x] Printing
-     [x] List
-     [x]  Dictionaries
-     [x] Boolean
-     [x] Tupal
-     [x] Set
+    - [x] Numbers
+    - [x] String
+    - [x] Printing
+    - [x] List
+    - [x] Dictionaries
+    - [x] Boolean
+    - [x] Tupal
+    - [x] Set
     
 * Comparison Operators
 * if,elif, else Statements
