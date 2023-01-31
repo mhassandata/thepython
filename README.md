@@ -15,3 +15,24 @@ This Repositrory includes
 - Advance Programming including Python Libraries
 1. Basic Python Programming.
     In the Basic programming we have convered basic syntax of python programming from variable to data types.
+2. Data types
+
+     [x] Numbers
+     [x] String
+     [x] Printing
+     [x] List
+     [x]  Dictionaries
+     [x] Boolean
+     [x] Tupal
+     [x] Set
+    
+* Comparison Operators
+* if,elif, else Statements
+* for Loops
+* while Loops
+* range()
+* list comprehension
+* functions
+* lambda expressions
+* map and filter
+* methods
