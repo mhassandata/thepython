@@ -36,3 +36,10 @@ print(even_odd_20)
 # '6 is Even ', '7 is odd', '8 is Even ', '9 is odd', '10 is Even ', '11 is odd', 
 # '12 is Even ', '13 is odd', '14 is Even ', '15 is odd', '16 is Even ', '17 is odd', '18 is Even ', '19 is odd']
 """
+
+def cumulative_result(value1, value2):
+    result = value1 + value2
+    print("Cumulative result:", result)
+
+cumulative_result(22,55)
+
