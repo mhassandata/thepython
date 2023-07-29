@@ -72,29 +72,49 @@ c0 = tf.multiply(a0, b)
 c1 = a0*b
 
 
-#Exerise 
-# Import constant from TensorFlow
-from tensorflow import constant
+# #Exerise 
+# # Import constant from TensorFlow
+# from tensorflow import constant
 
-# Convert the credit_numpy array into a tensorflow constant
-credit_constant = constant(credit_numpy)
+# # Convert the credit_numpy array into a tensorflow constant
+# credit_constant = constant(credit_numpy)
 
-# Print constant datatype
-print('\n The datatype is:', credit_constant.dtype)
+# # Print constant datatype
+# print('\n The datatype is:', credit_constant.dtype)
 
-# Print constant shape
-print('\n The shape is:', credit_constant.shape)
+# # Print constant shape
+# print('\n The shape is:', credit_constant.shape)
 
 
-#2
-# Define the 1-dimensional variable A1
-A1 = Variable([1, 2, 3, 4])
+# #2
+# # Define the 1-dimensional variable A1
+# A1 = Variable([1, 2, 3, 4])
 
-# Print the variable A1
-print('\n A1: ', A1)
+# # Print the variable A1
+# print('\n A1: ', A1)
 
-# Convert A1 to a numpy array and assign it to B1
-B1 = A1.numpy()
+# # Convert A1 to a numpy array and assign it to B1
+# B1 = A1.numpy()
 
-# Print B1
-print('\n B1: ', B1)
+# # Print B1
+# print('\n B1: ', B1)
+
+
+"""
+Gradient in TensorFlow
+
+"""
+# Importing tensorflow under the alias tf
+import tensorflow as tf
+
+# Define x
+x = tf.Variable(-1.0)
+
+# Define y within instance of GradientTape
+with tf.GradientTape() as tape:
+    tape.watch(x)
+    y = tf.multiply(x, x)
+
+# Evaluate the gradient of y at x = -1
+g = tape.gradient(y, x)
+print(g.numpy())
